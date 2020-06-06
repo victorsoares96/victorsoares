@@ -1,0 +1,26 @@
+{
+  "name": "victorsoares96",
+  "version": "1.0.0",
+  "description": "A package that simulates a personal card. The example developed here was based on the repository of the Glaucia Lemos",
+  "main": "card.js",
+  "bin": {
+    "victorsoares96": "./bin/card.js"
+  },
+  "scripts": {
+    "start": "node ./bin/card.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorsoares96/victorsoares96.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0"
+  }
+}
