@@ -14,16 +14,18 @@ const options = {
 
 // Inclusão do Text e mais as definições do ‘chalk’:
 const data = {
-  name: chalk.white('                Victor Soares /'),
+  name: chalk.white('              Victor Soares /'),
   handle: chalk.cyan('victorsoares96'),
   work: chalk.white('Mobile and Web Front End Developer'),
+  web: chalk.cyan(' https://victorsoares-cv.netlify.app'),
   twitter: chalk.cyan('https://twitter.com/VictorSoares_96'),
   github: chalk.cyan('https://github.com/victorsoares96'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/victor-soares96'),
   instagram: chalk.cyan('https://www.instagram.com/vitu.soares'),
-  npx: chalk.white('npx victorsoares96'),
+  npx: chalk.yellow.bold('npx victorsoares96'),
   
   labelWork: chalk.white.bold('      Work:'),
+  labelWeb: chalk.white.bold('       Web:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
@@ -37,6 +39,7 @@ const data = {
 // Aqui será a saída do nosso Cartão Pessoal em NPX:
 const newline = '\n'
 const heading = `${data.name} ${data.handle}`
+const web = `${data.labelWeb} ${data.web}`
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
@@ -50,6 +53,7 @@ const final = `${data.labelFinal}`
 const output = (
   heading + newline + newline + 
   working + newline + 
+  web + newline +
   twittering + newline + 
   githubing + newline + 
   linkedining + newline + 

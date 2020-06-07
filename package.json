@@ -1,6 +1,6 @@
 {
   "name": "victorsoares96",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package that simulates a personal card. The example developed here was based on the repository of the Glaucia Lemos",
   "main": "card.js",
   "bin": {
