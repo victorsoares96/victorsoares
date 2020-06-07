@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <a href="https://github.com/victorsoares96/victorsoares96">
-    <img alt="npx_image" src="https://user-images.githubusercontent.com/19741953/83953873-8f005080-a81a-11ea-9285-42dc441e99c9.png" width="300px" />
+    <img alt="npx_image" src="https://user-images.githubusercontent.com/19741953/83953873-8f005080-a81a-11ea-9285-42dc441e99c9.png" width="600px" />
   </a>
 </h1>
 
@@ -16,7 +16,7 @@
   </a>
 </p>
 
-## About
+## Sobre
 
 Este é um package npm que simula um cartão pessoal. Este exemplo foi baseado no cartão pessoal do repositório da **[glaucia_lemos86](https://www.npmjs.com/package/glaucia_lemos86)**.
 
